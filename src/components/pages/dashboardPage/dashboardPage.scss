@@ -1,0 +1,35 @@
+@import '../../../slyle/variables.scss';
+
+.page{
+    max-width: 1184px;
+    margin: 0 auto;
+    //overflow: auto;
+    &__serch_blok{
+        padding: 24px 36px; 
+    }
+    &__bloks{
+        padding: 8px 36px;
+        display: flex;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    &__graph{
+        width: 1110px;
+        margin-left: 36px;
+        margin-bottom: 38px;
+    }
+    &__graph_money{
+        width: 1110px;
+        margin-left: 36px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__clients_table{
+        background-color: $white-color;
+        box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+        border-radius: 8px;
+        margin-left: 36px;
+        max-width: 1110px;
+    }
+}

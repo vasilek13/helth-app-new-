@@ -1,0 +1,23 @@
+@import '../../../slyle/variables.scss';
+
+
+.mainTable{
+    background-color: $sky-blue;
+    .table{
+        max-width: 1110px;
+        background-color: $white-color;
+        border-radius: 10px;
+        &__title{
+            @extend %h2;
+            margin-bottom: 24px
+        }
+        &__thaed{
+            @extend %subtitle2;
+            background-color: $divider;
+        }
+        tr{
+            margin: 18px;
+            @extend %body2;
+        }
+    }
+}
